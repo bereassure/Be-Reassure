@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <title>다이제 미샥</title>
+    <link rel="icon" href="../../../../../../icon.png">
+    <link rel="stylesheet" type="text/css" href="../../../../../../default.css">
+</head>
+
+<body>
+    <div>
+        <!-- 해당 문서에는 프로젝트 노아에 대한 핵심 정보만 기술해 주십시오. -->
+        <div>- 개인 신상</div>
+        <div>다이제 미샥, 28세, 남성</div>
+        <b>퀘이사 데이터 베이스에 대한 특수 접근 권한 부여</b> (근거: 노아 프로젝트 1급 인력)
+        <hr>
+        <div>인공지능 공학 및 선체 생태 밸런스 유지보수 담당</div>
+        <div>N-O9 연구소 차석 연구원으로, 프로젝트 노아 발의에 최초 찬성한 인원입니다.</div>
+        <div>사회성은 다소 떨어지는 편이나, 연구와 프로젝트 진행에 방해되지 않는 정도를 유지하며 타인과의 관계를 원활히 유지할 능력을 갖추고 있는 것으로 보임.</div>
+        <br>
+        <div>닫힌 생태계를 유지하는 데 인원 감축을 기반에 둔 최적화 이론에 과한 흥미를 가진 것으로 보입니다.</div>
+        <br>
+        <textarea id="mindconsole">
+MINDCONSOLE v1.112
+원본 코어 손실 상태 확인
+모든 응답, 입출력 시스템을 정지합니다.</textarea>
+    </div>
+    <script>
+        var s = document.getElementById('mindconsole');
+        const projectMinD = {};
+        setInterval(() => {
+            var log = "";
+            if (!(projectMinD?.core?.lessingCtrl?.projU?.isActivating))
+            s.value += "\n원본 코어 손실";
+        }, 5000);
+    </script>
+</body>
+
+</html>
