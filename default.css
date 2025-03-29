@@ -1,0 +1,25 @@
+.warning-level {
+    font-style: italic;
+    color: orange;
+}
+
+.error-level {
+    font-style: italic;
+    color: red;
+}
+
+.security-breach-low-level {
+    font-weight: bolder;
+    font-size: larger;
+
+    background: red;
+    color: black;
+}
+
+.security-breach-high-level {
+    font-weight: bolder;
+    font-size: larger;
+
+    background: black;
+    color: white;
+}
